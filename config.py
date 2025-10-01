@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Kingofmusicbot/Mtv",
+    "https://github.com/KingOfMusicBot/Cherry",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -41,12 +41,12 @@ GIT_TOKEN = getenv(
 
 
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
-YT_API_KEY = "xbit_UH3H68KMZRQF1UJTSCGLYS"
+YT_API_KEY = "xbit_8WBCRMOOEWUI80HIRAIXVR"
 COOKIES_URL=getenv("COOKIES_URL" , "https://gist.githubusercontent.com/sparrow9616/f29fc6588086a3c72d92dd9c03773350/raw/4229f3f4aab4a6693fc0794d136d30f54d67ae85/gistfile1.txt")
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CloudBerryBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+rbl9ppWwBQljZWVl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+fkrgOvcznwIxNjhl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+IcKqyWHaTO5jZDM1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,7 +87,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://files.catbox.moe/gl5rg8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/bdcf5x.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/6mgl7n.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
